@@ -1,4 +1,4 @@
-package com.dailyInterviewProJava.uber;
+package com.dailyinterviewprojava.uber;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

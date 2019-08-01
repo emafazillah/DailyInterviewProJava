@@ -1,4 +1,4 @@
-package com.dailyInterviewProJava.uber;
+package com.dailyinterviewprojava.uber;
 
 import java.util.Scanner;
 import java.util.Stack;
