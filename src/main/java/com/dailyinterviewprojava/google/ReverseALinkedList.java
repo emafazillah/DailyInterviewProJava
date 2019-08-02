@@ -13,10 +13,21 @@ public class ReverseALinkedList {
 		inputs = inputs.replace("]", "");
 		String[] inputArray = inputs.split(",");
 		ListNode node = null;
-		for(String input : inputArray) {
-			if(!"null".equals(input)) {
-				node = insertListNode(node, Integer.parseInt(input));
+		
+//		for(String input : inputArray) {
+//			if(!"null".equals(input)) {
+//				node = insertListNode(node, Integer.parseInt(input));
+//			}
+//		}
+		
+		int count = inputArray.length - 1;
+		while(count > -1) {			
+			if(!"null".equals(inputArray[count])) {
+				ListNode temp = node;
+				node = new ListNode(Integer.parseInt(inputArray[count]));
+				node.next = temp;
 			}
+			--count;
 		}
 		
 		// Reverse linked list
@@ -37,18 +48,25 @@ public class ReverseALinkedList {
 		return listNode;
 	}
 	
-	
 	static ListNode reverseList(ListNode listNode) {
-		if(listNode == null) {
-			return null;
-		}
-		
 		Stack<ListNode> stack = new Stack<ListNode>();
+		
 		while(listNode != null) {
 			ListNode temp = listNode;
-			
+			stack.push(listNode);
+			listNode = temp.next;
 		}
 		
+		while(!stack.isEmpty()) {
+			if(listNode == null) {
+				listNode = new ListNode(stack.peek().val);
+			} else {
+				ListNode temp = listNode;
+				listNode = new ListNode(stack.peek().val);
+				listNode.next = temp;
+			}
+			stack.pop();
+		}
 		
 		return listNode;
 	}
