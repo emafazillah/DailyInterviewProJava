@@ -11,3 +11,8 @@ Daily Interview Pro (https://www.techseries.dev/daily) in Java
 	- 01-Aug-2019: Sorting a list with 3 unique numbers (Google)
 	- 02-Aug-2019: Two-Sum (Facebook)
 	- 03-Aug-2019: Find the non-duplicate number (Facebook)
+	- 04-Aug-2019: Non-decreasing Array with Single Modification (Microsoft)
+	- 05-Aug-2019: Floor and Ceiling of a Binary Search Tree (Apple)
+	- 06-Aug-2019: Invert a Binary Tree (Twitter)
+	- 07-Aug-2019: Maximum In A Stack (Twitter)
+	- 08-Aug-2019: Number of Ways to Climb Stairs (LinkedIn)
