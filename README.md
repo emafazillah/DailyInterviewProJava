@@ -18,4 +18,4 @@ Date | Problem | Asked by | Solution |
 06-Jul-2019 | Invert a Binary Tree | Twitter | NA |
 07-Jul-2019 | Maximum In A Stack | Twitter | NA |
 08-Jul-2019 | Number of Ways to Climb Stairs | LinkedIn | NA |
-09-Jul-2019 | Find Pythagorean Triplets | Uber | NA |
+09-Jul-2019 | Find Pythagorean Triplets | Uber | [FindPythagoreanTriplets.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/uber/FindPythagoreanTriplets.java) |

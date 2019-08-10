@@ -16,6 +16,15 @@ import java.util.Stack;
  * - Open brackets are closed in the correct order.
  * - Note that an empty string is also considered valid.
  *
+ * Example:
+ * Input: "((()))"
+ * Output: True
+ *
+ * Input: "[()]{}"
+ * Output: True
+ *
+ * Input: "({[)]"
+ * Output: False
  *
  */
 public class ValidateBalancedParentheses 

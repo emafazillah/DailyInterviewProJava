@@ -11,6 +11,8 @@ import java.util.Scanner;
  * Example 1:
  * Input: [3,3,2,1,3,2,1]
  * Output: [1,1,2,2,3,3,3]
+ * 
+ * Challenge: Try sorting the list using constant space.
  *
  */
 public class SortingAListWith3UniqueNumbers {
