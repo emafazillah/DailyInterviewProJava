@@ -1,6 +1,6 @@
 # DailyInterviewProJava
 
-## Daily Interview Pro from [https://www.techseries.dev/daily](https://www.techseries.dev/daily) in Java
+#### Daily Interview Pro from [https://www.techseries.dev/daily](https://www.techseries.dev/daily) in Java
 
 Date | Problem | Asked by | Solution |
 :---:|:---:|:---:|:---:|
