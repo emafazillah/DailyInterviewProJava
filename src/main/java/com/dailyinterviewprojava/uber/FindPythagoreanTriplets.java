@@ -5,8 +5,6 @@ import java.util.Scanner;
 /**
  * 
  * @author ema
- * Hi, here's your problem today. This problem was recently asked by Uber:
- *
  * Given a list of numbers, find if there exists a pythagorean triplet in that list. A pythagorean triplet is 3 variables a, b, c where a^2 + b^2 = c^2
  *
  * Example:

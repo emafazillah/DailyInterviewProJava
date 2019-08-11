@@ -6,7 +6,7 @@ Date | Problem | Asked by | Solution |
 :---:|:---:|:---:|:---:|
 26-Jul-2019 | Add two numbers as a linked list | Microsoft | NA |
 27-Jul-2019 | Longest Substring Without Repeating Characters | Microsoft | [LongestSubstring.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/LongestSubstring.java) |
-28-Jul-2019 | Longest Palindromic Substring | Twitter | NA |
+28-Jul-2019 | Longest Palindromic Substring | Twitter | [LongestPalindromicSubstring.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/LongestPalindromicSubstring.java) |
 29-Jul-2019 | Validate Balanced Parentheses | Uber | [ValidateBalancedParentheses.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/uber/ValidateBalancedParentheses.java) |
 30-Jul-2019 | First and Last Indices of an Element in a Sorted Array | Airbnb | NA |
 31-Jul-2019 | Reverse a Linked List | Google | [ReverseALinkedListIterative.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/ReverseALinkedListIterative.java) |
