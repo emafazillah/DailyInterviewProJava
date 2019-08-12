@@ -28,47 +28,54 @@ public class LongestPalindromicSubstring {
 		scanner.close();
 	}
 
-	static String longestPalindrome(String input) {
-		String longestPalindromicString = "";
+	static String palindromicString(String s, int midPoint, int i, int endLeft, int endRight, boolean isOdd) {
+		String left = "";
+		String right = "";
 		
-		for (int midPoint = 1; midPoint < input.length() - 1; midPoint++) {
-			for (int i = 1; i <= midPoint; i++) {
-				if ((midPoint - i > -1) && (midPoint + i < input.length())) {
-					String left = "";
-					String right = "";
-					
-					if (input.charAt(midPoint) == input.charAt(midPoint + 1)) {
-						left = input.substring(midPoint - i, midPoint + 1);
-						right = input.substring(midPoint + 1, midPoint + 2 + i);
-					} else {
-						left = input.substring(midPoint - i, midPoint);
-						right = input.substring(midPoint + 1, midPoint + 1 + i);
-					}
-					
-					boolean isPalindromic = true;
-					
-					for (int j = 0; j < left.length(); j++) {
-						if (left.charAt(j) != right.charAt(left.length() - 1 - j)) {
-							isPalindromic = false;
-							break;
-						}
-					}
-					
-					if (isPalindromic) {
-						String palindromicString = left + input.charAt(midPoint) + right;
-						if (input.charAt(midPoint) == input.charAt(midPoint + 1)) {
-							palindromicString = left + right;
-						}
-						
-						if (palindromicString.length() > longestPalindromicString.length()) {
-							longestPalindromicString = palindromicString;
-						}
-					}
-				}
+		if (midPoint - i >= 0 && endRight <= s.length()) {
+			left = s.substring(midPoint - i, endLeft);
+			right = s.substring(midPoint + 1, endRight);
+		}
+		
+		boolean isPalindromic = true;
+		
+		for (int j = 0; j < left.length(); j++) {
+			if (left.charAt(j) != right.charAt(left.length() - 1 - j)) {
+				isPalindromic = false;
+				break;
 			}
 		}
 		
-		return longestPalindromicString;
+		if (isPalindromic) {
+			if (isOdd) {
+				return left + s.charAt(midPoint) + right;
+			} else {
+				return left + right;
+			}
+		}
+		
+		return "";
 	}
-	
+
+	static String longestPalindrome(String s) {
+		if (s.length() == 1) {
+			return s;
+		} else {
+			String longestPalindromicString = "";
+			
+			for (int midPoint = 0; midPoint < s.length(); midPoint++) {
+				for (int i = 0; i <= midPoint; i++) {
+					if (palindromicString(s, midPoint, i, midPoint, midPoint + 1 + i, true) .length() > longestPalindromicString.length()) {
+						longestPalindromicString = palindromicString(s, midPoint, i, midPoint, midPoint + 1 + i, true);
+					}
+					
+					if (palindromicString(s, midPoint, i, midPoint + 1, midPoint + 2 + i, false).length() > longestPalindromicString.length()) {
+						longestPalindromicString = palindromicString(s, midPoint, i, midPoint + 1, midPoint + 2 + i, false);
+					}
+				}
+			}
+			
+			return longestPalindromicString;			
+		}
+	}	
 }
