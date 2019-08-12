@@ -8,7 +8,7 @@ Date | Problem | Asked by | Solution |
 27-Jul-2019 | Longest Substring Without Repeating Characters | Microsoft | [LongestSubstring.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/LongestSubstring.java) |
 28-Jul-2019 | Longest Palindromic Substring | Twitter | [LongestPalindromicSubstring.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/LongestPalindromicSubstring.java) |
 29-Jul-2019 | Validate Balanced Parentheses | Uber | [ValidateBalancedParentheses.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/uber/ValidateBalancedParentheses.java) |
-30-Jul-2019 | First and Last Indices of an Element in a Sorted Array | Airbnb | NA |
+30-Jul-2019 | First and Last Indices of an Element in a Sorted Array | Airbnb | [FirstAndLastIndices.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/airbnb/FirstAndLastIndices.java) |
 31-Jul-2019 | Reverse a Linked List | Google | [ReverseALinkedListIterative.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/ReverseALinkedListIterative.java) |
 01-Jul-2019 | Sorting a list with 3 unique numbers | Google | [SortingAListWith3UniqueNumbers.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/SortingAListWith3UniqueNumbers.java) |
 02-Jul-2019 | Two-Sum | Facebook | [TwoSum.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/TwoSum.java) |
