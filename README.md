@@ -13,7 +13,7 @@ Date | Problem | Asked by | Solution |
 01-Jul-2019 | Sorting a list with 3 unique numbers | Google | [SortingAListWith3UniqueNumbers.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/SortingAListWith3UniqueNumbers.java) |
 02-Jul-2019 | Two-Sum | Facebook | [TwoSum.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/TwoSum.java) |
 03-Jul-2019 | Find the non-duplicate number | Facebook | [FindTheNonDuplicateNumber.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/FindTheNonDuplicateNumber.java) |
-04-Jul-2019 | Non-decreasing Array with Single Modification | Microsoft | NA |
+04-Jul-2019 | Non-decreasing Array with Single Modification | Microsoft | [NonDecreasingArrayWithSingleModification.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/NonDecreasingArrayWithSingleModification.java) |
 05-Jul-2019 | Floor and Ceiling of a Binary Search Tree | Apple | NA |
 06-Jul-2019 | Invert a Binary Tree | Twitter | NA |
 07-Jul-2019 | Maximum In A Stack | Twitter | NA |
@@ -21,3 +21,4 @@ Date | Problem | Asked by | Solution |
 09-Jul-2019 | Find Pythagorean Triplets | Uber | [FindPythagoreanTriplets.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/uber/FindPythagoreanTriplets.java) |
 12-Jul-2019 | Edit Distance | Airbnb | NA |
 12-Jul-2019 | Create a Simple Calculator | Google | NA |
+12-Jul-2019 | Longest Sequence with Two Unique Numbers | Facebook | NA |
