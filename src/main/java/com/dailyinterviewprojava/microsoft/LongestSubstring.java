@@ -23,38 +23,52 @@ public class LongestSubstring {
 		// Input
 		Scanner scanner = new Scanner(System.in);
 		String input = scanner.next();
-		char[] arr = input.toCharArray();
-		
-		// Count substring without repeating characters and store as 'list'
-		Map<Character, Integer> map = new HashMap<Character, Integer>();
-		List<Integer> list = new ArrayList<Integer>();
-		int i = 0;
-		while(i < arr.length) {
-			if(map.containsKey(arr[i])) {				
-				// update list
-				Integer count = 0;
-				for(Map.Entry<Character, Integer> entry : map.entrySet()) {
-					count += entry.getValue();
-				}
-				list.add(count);
-				
-				// reset map
-				map.clear();
-			} else {
-				// update map
-				map.put(arr[i], 1);
-				
-				++i;
-			}
-		}
-		
-		// Sort 'list' to get longest substring without repeating characters
-		Collections.sort(list);
 		
 		// Print result
-		System.out.println(list.get(list.size() - 1));
+		System.out.println(lengthOfLongestSubstring(input));
 		
 		scanner.close();
+	}
+	
+	static int lengthOfLongestSubstring(String s) {
+		if (s.length() <= 1) {
+			return s.length();
+		} else {
+			// Count substring without repeating characters and store as 'list'
+			Map<Character, Integer> map = new HashMap<Character, Integer>();
+			List<Integer> list = new ArrayList<Integer>();
+			Integer count = 0;
+			
+			// i = start index of substring
+			for (int i = 0; i < s.length(); i++) {
+				String substr = s.substring(i, s.length());
+				char[] chars = substr.toCharArray();
+				for (int j = 0; j < chars.length; j++) {
+					if (map.containsKey(chars[j])) {
+						// update list
+						list.add(count);
+						
+						// reset map and count
+						map.clear();
+						count = 0;
+						
+						break;
+					} else {
+						map.put(chars[j], 1);
+						++count;
+					}
+				}
+			}
+			
+			if (count > 0) {
+				list.add(count);
+			}
+			
+			// Sort 'list' to get longest substring without repeating characters
+			Collections.sort(list);
+			
+			return list.get(list.size() - 1);
+		}
 	}
 
 }
