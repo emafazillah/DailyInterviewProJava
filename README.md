@@ -23,3 +23,6 @@ Date | Problem | Asked by | Solution |
 12-Jul-2019 | Create a Simple Calculator | Google | NA |
 12-Jul-2019 | Longest Sequence with Two Unique Numbers | Facebook | NA |
 13-Jul-2019 | Find Cycles in a Graph | Facebook | NA |
+14-Jul-2019 | Word Search | Amazon | NA |
+15-Jul-2019 | Minimum Size Subarray Sum | Amazon | NA |
+16-Jul-2019 | Ways to Traverse a Grid | Microsoft | NA |
