@@ -33,5 +33,5 @@ Date | Problem | Asked by | Solution |
 21-Aug-2019 | Witness of The Tall People | Google | NA |
 22-Aug-2019 | Course Prerequisites | Google | NA |
 23-Aug-2019 | Move Zeros | Facebook | [MoveZeroes.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/MoveZeroes.java) |
-24-Aug-2019 | Find the k-th Largest Element in a List | Facebook | NA |
+24-Aug-2019 | Find the k-th Largest Element in a List | [KthLargestElementInAList.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/KthLargestElementInAList.java) | NA |
 25-Aug-2019 | Spiral Traversal of Grid | Amazon | NA |
