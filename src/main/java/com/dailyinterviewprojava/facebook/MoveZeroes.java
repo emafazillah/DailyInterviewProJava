@@ -3,6 +3,8 @@ package com.dailyinterviewprojava.facebook;
 import java.util.Arrays;
 import java.util.Scanner;
 
+import com.dailyinterviewprojava.util.InputUtil;
+
 /**
  * 
  * @author ema
@@ -15,8 +17,6 @@ import java.util.Scanner;
  * Minimize the total number of operations.
  *
  */
-import com.dailyinterviewprojava.util.InputUtil;
-
 public class MoveZeroes {
 	
 	public static void main(String...strings) {
