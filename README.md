@@ -32,6 +32,6 @@ Date | Problem | Asked by | Solution |
 20-Aug-2019 | Remove k-th Last Element From Linked List | Airbnb | NA |
 21-Aug-2019 | Witness of The Tall People | Google | NA |
 22-Aug-2019 | Course Prerequisites | Google | NA |
-23-Aug-2019 | Move Zeros | Facebook | NA |
+23-Aug-2019 | Move Zeros | Facebook | [MoveZeroes.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/MoveZeroes.java) |
 24-Aug-2019 | Find the k-th Largest Element in a List | Facebook | NA |
 
