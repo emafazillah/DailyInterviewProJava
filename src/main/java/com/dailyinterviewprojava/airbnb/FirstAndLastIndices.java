@@ -5,6 +5,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
+import com.dailyinterviewprojava.util.InputUtil;
+
 /**
  * 
  * @author ema
@@ -27,16 +29,9 @@ public class FirstAndLastIndices {
 		// Input
 		Scanner scanner = new Scanner(System.in);
 		String input = scanner.next();
+		String[] inputs = InputUtil.inputArr(input);
+		int[] nums = InputUtil.integerArr(inputs);		
 		int target = scanner.nextInt();
-		
-		// Array
-		input = input.replace("[", "");
-		input = input.replace("]", "");
-		String[] inputArr = input.split(",");
-		int[] nums = new int[inputArr.length];
-		for (int i = 0; i < nums.length; i++) {
-			nums[i] = Integer.parseInt(inputArr[i]);
-		}
 		
 		// Print output
 		System.out.println(Arrays.toString(getRange(nums, target)));

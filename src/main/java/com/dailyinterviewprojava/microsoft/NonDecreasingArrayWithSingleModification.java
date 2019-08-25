@@ -2,6 +2,8 @@ package com.dailyinterviewprojava.microsoft;
 
 import java.util.Scanner;
 
+import com.dailyinterviewprojava.util.InputUtil;
+
 /**
  * 
  * @author ema
@@ -23,11 +25,8 @@ public class NonDecreasingArrayWithSingleModification {
 	public static void main(String...strings) {
 		// Input to array
 		Scanner scanner = new Scanner(System.in);
-		String input = scanner.next();
-		input = input.replace("[", "");
-		input = input.replace("]", "");
-		String[] inputs = input.split(",");
-		int[] lst = new int[inputs.length];
+		String[] inputs = InputUtil.inputArr(scanner.next());
+		int[] lst = InputUtil.integerArr(inputs);
 		for (int i = 0; i < inputs.length; i++) {
 			lst[i] = Integer.parseInt(inputs[i]);
 		}

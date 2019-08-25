@@ -3,6 +3,8 @@ package com.dailyinterviewprojava.google;
 import java.util.Arrays;
 import java.util.Scanner;
 
+import com.dailyinterviewprojava.util.InputUtil;
+
 /**
  * 
  * @author ema
@@ -19,14 +21,11 @@ public class SortingAListWith3UniqueNumbers {
 	
 	public static void main(String...strings) {
 		// Input into array
-		Scanner scanner = new Scanner(System.in);
-		String input = scanner.next();
-		input = input.replace("[", "");
-		input = input.replace("]", "");
-		String[] inputArr = input.split(",");
-		int[] nums = new int[inputArr.length];
+		Scanner scanner = new Scanner(System.in);		
+		String[] inputs = InputUtil.inputArr(scanner.next());
+		int[] nums = InputUtil.integerArr(inputs);
 		for (int i = 0; i < nums.length; i++) {
-			nums[i] = Integer.parseInt(inputArr[i]);
+			nums[i] = Integer.parseInt(inputs[i]);
 		}
 		
 		// Print output

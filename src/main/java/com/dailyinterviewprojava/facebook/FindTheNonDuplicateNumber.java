@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+import com.dailyinterviewprojava.util.InputUtil;
+
 /**
  * 
  * @author ema
@@ -22,13 +24,8 @@ public class FindTheNonDuplicateNumber {
 		// Input into array
 		Scanner scanner = new Scanner(System.in);
 		String input = scanner.next();
-		input = input.replace("[", "");
-		input = input.replace("]", "");
-		String[] inputs = input.split(",");
-		int[] nums = new int[inputs.length];
-		for (int i = 0; i < inputs.length; i++) {
-			nums[i] = Integer.parseInt(inputs[i]);
-		}
+		String[] inputs = InputUtil.inputArr(input);
+		int[] nums = InputUtil.integerArr(inputs);
 		
 		// Print output
 		System.out.println(singleNumber(nums));

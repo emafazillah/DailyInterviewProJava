@@ -2,6 +2,8 @@ package com.dailyinterviewprojava.uber;
 
 import java.util.Scanner;
 
+import com.dailyinterviewprojava.util.InputUtil;
+
 /**
  * 
  * @author ema
@@ -18,15 +20,12 @@ public class FindPythagoreanTriplets {
 	public static void main(String...strings) {
 		// Input
 		Scanner scanner = new Scanner(System.in);
-		String input = scanner.next();
-		input = input.replace("[", "");
-		input = input.replace("]", "");
-		String[] inputArr = input.split(",");
+		String[] inputs = InputUtil.inputArr(scanner.next());
 		
 		// Input to array
-		int[] nums = new int[inputArr.length];
+		int[] nums = InputUtil.integerArr(inputs);
 		for (int i = 0; i < nums.length; i++) {
-			nums[i] = Integer.parseInt(inputArr[i]);
+			nums[i] = Integer.parseInt(inputs[i]);
 		}
 		
 		// Print output
