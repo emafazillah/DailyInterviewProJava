@@ -29,9 +29,14 @@ Date | Problem | Asked by | Solution |
 17-Aug-2019 | Intersection of Linked Lists | Apple | [IntersectionOfLinkedLists.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/IntersectionOfLinkedLists.java) |
 18-Aug-2019 | Falling Dominoes | Twitter | NA |
 19-Aug-2019 | Remove Consecutive Nodes that Sum to 0 | Uber | NA |
-20-Aug-2019 | Remove k-th Last Element From Linked List | Airbnb | NA |
+20-Aug-2019 | Remove k-th Last Element From Linked List | Airbnb | [RemoveKthLastElementFromLinkedList.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/airbnb/RemoveKthLastElementFromLinkedList.java) |
 21-Aug-2019 | Witness of The Tall People | Google | NA |
 22-Aug-2019 | Course Prerequisites | Google | NA |
 23-Aug-2019 | Move Zeros | Facebook | [MoveZeroes.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/MoveZeroes.java) |
-24-Aug-2019 | Find the k-th Largest Element in a List | [KthLargestElementInAList.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/KthLargestElementInAList.java) | NA |
+24-Aug-2019 | Find the k-th Largest Element in a List | Facebook | [KthLargestElementInAList.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/KthLargestElementInAList.java) |
 25-Aug-2019 | Spiral Traversal of Grid | Amazon | NA |
+26-Aug-2019 | Largest Product of 3 Elements | Microsoft | NA |
+27-Aug-2019 | Merge Overlapping Intervals | Microsoft | NA |
+28-Aug-2019 | Maximum Profit From Stocks | Apple | NA |
+29-Aug-2019 | Queue Using Two Stacks | Apple | NA |
+30-Aug-2019 | Contiguous Subarray with Maximum Sum | Twitter | NA |
