@@ -4,7 +4,7 @@
 
 Date | Problem | Asked by | Solution |
 :---:|:---:|:---:|:---:|
-26-Jul-2019 | Add two numbers as a linked list | Microsoft | NA |
+26-Jul-2019 | Add two numbers as a linked list | Microsoft | [AddTwoNumbersAsALinkedList.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/AddTwoNumbersAsALinkedList.java) |
 27-Jul-2019 | Longest Substring Without Repeating Characters | Microsoft | [LongestSubstring.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/LongestSubstring.java) |
 28-Jul-2019 | Longest Palindromic Substring | Twitter | [LongestPalindromicSubstring.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/LongestPalindromicSubstring.java) |
 29-Jul-2019 | Validate Balanced Parentheses | Uber | [ValidateBalancedParentheses.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/uber/ValidateBalancedParentheses.java) |
