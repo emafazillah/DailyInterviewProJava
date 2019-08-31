@@ -16,7 +16,7 @@ Date | Problem | Asked by | Solution |
 04-Aug-2019 | Non-decreasing Array with Single Modification | Microsoft | [NonDecreasingArrayWithSingleModification.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/NonDecreasingArrayWithSingleModification.java) |
 05-Aug-2019 | Floor and Ceiling of a Binary Search Tree | Apple | NA |
 06-Aug-2019 | Invert a Binary Tree | Twitter | NA |
-07-Aug-2019 | Maximum In A Stack | Twitter | NA |
+07-Aug-2019 | Maximum In A Stack | Twitter | [MaximumInAStack.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/MaximumInAStack.java) |
 08-Aug-2019 | Number of Ways to Climb Stairs | LinkedIn | [ClimbingStairs.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/linkedin/ClimbingStairs.java) |
 09-Aug-2019 | Find Pythagorean Triplets | Uber | [FindPythagoreanTriplets.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/uber/FindPythagoreanTriplets.java) |
 12-Aug-2019 | Edit Distance | Airbnb | NA |
