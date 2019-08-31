@@ -65,22 +65,42 @@ public class AddTwoNumbersAsALinkedList {
 	}
 	
 	static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode result = null;
-        int val = 0;
-        while (l1 != null) {
-        	val += l1.val + l2.val;
-        	if (val >= 10) {
-        		result = insertListNode(result, val - 10);
-        		val = 1;
-        	} else {
-        		result = insertListNode(result, val);
-        		val = 0;
-        	}
-        	
-        	l1 = l1.next;
-        	l2 = l2.next;
-        }
-        
+		ListNode result = null;
+		int sum = 0;
+		while (l1 != null || l2 != null) {
+			int x = 0;
+			if (l1 != null) {
+				x = l1.val;
+			}
+			
+			int y = 0;
+			if (l2 != null) {
+				y = l2.val;
+			}
+			
+			sum += x + y;
+			
+			if (sum >= 10) {
+				result = insertListNode(result, sum - 10);
+				sum = 1;
+			} else {
+				result = insertListNode(result, sum);
+				sum = 0;
+			}
+			
+			if (l1 != null) {
+				l1 = l1.next;
+			}
+			
+			if (l2 != null) {
+				l2 = l2.next;
+			}
+		}
+		
+		if (sum > 0) {
+			result = insertListNode(result, sum);
+		}
+		
 		return result;
     }
 
