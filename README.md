@@ -23,7 +23,7 @@ Date | Problem | Asked by | Solution |
 12-Aug-2019 | Create a Simple Calculator | Google | NA |
 12-Aug-2019 | Longest Sequence with Two Unique Numbers | Facebook | NA |
 13-Aug-2019 | Find Cycles in a Graph | Facebook | NA |
-14-Aug-2019 | Word Search | Amazon | NA |
+14-Aug-2019 | Word Search | Amazon | [WordSearch.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/amazon/WordSearch.java) |
 15-Aug-2019 | Minimum Size Subarray Sum | Amazon | [MinimumSizeSubarraySum.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/amazon/MinimumSizeSubarraySum.java) |
 16-Aug-2019 | Ways to Traverse a Grid | Microsoft | NA |
 17-Aug-2019 | Intersection of Linked Lists | Apple | [IntersectionOfLinkedLists.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/IntersectionOfLinkedLists.java) |
@@ -40,3 +40,4 @@ Date | Problem | Asked by | Solution |
 28-Aug-2019 | Maximum Profit From Stocks | Apple | NA |
 29-Aug-2019 | Queue Using Two Stacks | Apple | [QueueUsingTwoStacks.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/QueueUsingTwoStacks.java) |
 30-Aug-2019 | Contiguous Subarray with Maximum Sum | Twitter | NA |
+31-Aug-2019 | Merge K Sorted Linked Lists | Twitter | NA |
