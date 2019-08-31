@@ -30,7 +30,7 @@ public class QueueUsingTwoStacks {
 
 class MyQueue {
 	
-	Stack<Integer> stack = new Stack<Integer>();
+	Stack<Integer> stack = new Stack<>();
 	
 	/** Initialize your data structure here. */
     public MyQueue() {
@@ -42,7 +42,7 @@ class MyQueue {
     	if(this.stack.isEmpty()) {
     		this.stack.push(x);
     	} else {
-    		Stack<Integer> tempStack = new Stack<Integer>();
+    		Stack<Integer> tempStack = new Stack<>();
     		
     		tempStack.push(x);
             int size = this.stack.size();
@@ -68,7 +68,7 @@ class MyQueue {
         
         int value = this.stack.get(0);
         
-        Stack<Integer> tempStack = new Stack<Integer>();
+        Stack<Integer> tempStack = new Stack<>();
         int size = this.stack.size() - 1;
         while(size > 0) {
         	tempStack.push(this.stack.pop());
@@ -76,7 +76,7 @@ class MyQueue {
         }
         
         // Update stack
-        this.stack = new Stack<Integer>();
+        this.stack = new Stack<>();
         size = tempStack.size();
         while(size > 0) {
         	this.stack.push(tempStack.pop());
@@ -101,4 +101,3 @@ class MyQueue {
     }
     
 }
-

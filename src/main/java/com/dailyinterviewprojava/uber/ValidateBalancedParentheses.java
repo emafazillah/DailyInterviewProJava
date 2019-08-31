@@ -48,7 +48,7 @@ public class ValidateBalancedParentheses
     	}
     	
     	// Validate balanced parentheses
-        Stack<Character> charStack = new Stack<Character>();
+        Stack<Character> charStack = new Stack<>();
         for(char character : characters) {
         	switch(character) {
 	        	case '{':

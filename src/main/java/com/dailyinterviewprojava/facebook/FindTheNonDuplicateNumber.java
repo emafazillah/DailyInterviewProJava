@@ -35,7 +35,7 @@ public class FindTheNonDuplicateNumber {
 	
 	static int singleNumber(int[] nums) {
 		// Count duplicate
-		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+		Map<Integer, Integer> map = new HashMap<>();
 		for (int i = 0; i < nums.length; i++) {
 			if (i == 0) {
 				map.put(nums[i], 1);

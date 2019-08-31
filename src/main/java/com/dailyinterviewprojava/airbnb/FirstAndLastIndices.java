@@ -42,7 +42,7 @@ public class FirstAndLastIndices {
 	static int[] getRange(int[] nums, int target) {
 		int[] result = new int[2];
 		
-		List<Integer> index = new ArrayList<Integer>();
+		List<Integer> index = new ArrayList<>();
 		for (int i = 0; i < nums.length; i++) {
 			if (nums[i] == target) {
 				index.add(i);

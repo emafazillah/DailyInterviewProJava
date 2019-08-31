@@ -50,7 +50,7 @@ public class RemoveKthLastElementFromLinkedList {
 	
 	static ListNode removeKthFromEnd(ListNode head, int n) {
 		// Save List Node as Collection
-        List<Integer> list = new ArrayList<Integer>();
+        List<Integer> list = new ArrayList<>();
         while(head != null) {
         	list.add(head.val);
         	head = head.next;

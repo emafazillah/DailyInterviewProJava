@@ -35,8 +35,8 @@ public class LongestSubstring {
 			return s.length();
 		} else {
 			// Count substring without repeating characters and store as 'list'
-			Map<Character, Integer> map = new HashMap<Character, Integer>();
-			List<Integer> list = new ArrayList<Integer>();
+			Map<Character, Integer> map = new HashMap<>();
+			List<Integer> list = new ArrayList<>();
 			Integer count = 0;
 			
 			// i = start index of substring
