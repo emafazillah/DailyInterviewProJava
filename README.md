@@ -38,5 +38,5 @@ Date | Problem | Asked by | Solution |
 26-Aug-2019 | Largest Product of 3 Elements | Microsoft | NA |
 27-Aug-2019 | Merge Overlapping Intervals | Microsoft | NA |
 28-Aug-2019 | Maximum Profit From Stocks | Apple | NA |
-29-Aug-2019 | Queue Using Two Stacks | Apple | NA |
+29-Aug-2019 | Queue Using Two Stacks | Apple | [QueueUsingTwoStacks.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/QueueUsingTwoStacks.java) |
 30-Aug-2019 | Contiguous Subarray with Maximum Sum | Twitter | NA |
