@@ -41,3 +41,4 @@ Date | Problem | Asked by | Solution |
 29-Aug-2019 | Queue Using Two Stacks | Apple | [QueueUsingTwoStacks.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/QueueUsingTwoStacks.java) |
 30-Aug-2019 | Contiguous Subarray with Maximum Sum | Twitter | NA |
 31-Aug-2019 | Merge K Sorted Linked Lists | Twitter | NA |
+01-Sep-2019 | Create a balanced binary search tree | LinkedIn | NA |

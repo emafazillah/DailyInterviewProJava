@@ -28,54 +28,27 @@ public class LongestPalindromicSubstring {
 		scanner.close();
 	}
 
-	static String palindromicString(String s, int midPoint, int i, int endLeft, int endRight, boolean isOdd) {
-		String left = "";
-		String right = "";
-		
-		if (midPoint - i >= 0 && endRight <= s.length()) {
-			left = s.substring(midPoint - i, endLeft);
-			right = s.substring(midPoint + 1, endRight);
-		}
-		
-		boolean isPalindromic = true;
-		
-		for (int j = 0; j < left.length(); j++) {
-			if (left.charAt(j) != right.charAt(left.length() - 1 - j)) {
-				isPalindromic = false;
-				break;
-			}
-		}
-		
-		if (isPalindromic) {
-			if (isOdd) {
-				return left + s.charAt(midPoint) + right;
-			} else {
-				return left + right;
-			}
-		}
-		
-		return "";
-	}
-
 	static String longestPalindrome(String s) {
-		if (s.length() == 1) {
+		if (s == null || s.length() < 2) {
 			return s;
 		} else {
-			String longestPalindromicString = "";
-			
-			for (int midPoint = 0; midPoint < s.length(); midPoint++) {
-				for (int i = 0; i <= midPoint; i++) {
-					if (palindromicString(s, midPoint, i, midPoint, midPoint + 1 + i, true) .length() > longestPalindromicString.length()) {
-						longestPalindromicString = palindromicString(s, midPoint, i, midPoint, midPoint + 1 + i, true);
-					}
-					
-					if (palindromicString(s, midPoint, i, midPoint + 1, midPoint + 2 + i, false).length() > longestPalindromicString.length()) {
-						longestPalindromicString = palindromicString(s, midPoint, i, midPoint + 1, midPoint + 2 + i, false);
+			int start = 0;
+			int end = 0;
+			boolean[][] isPalindrome = new boolean[s.length()][s.length()];
+			for (int j = 1; j < s.length(); j++) {
+				for (int i = 0; i < j; i++) {
+					if (s.charAt(i) == s.charAt(j) && (isPalindrome[i + 1][j - 1] || j - i <= 2)) {
+						isPalindrome[i][j] = true;
+						
+						if (j - i > end - start) {
+							start = i;
+							end = j;
+						}
 					}
 				}
 			}
 			
-			return longestPalindromicString;			
+			return s.substring(start, end + 1);
 		}
 	}	
 }
