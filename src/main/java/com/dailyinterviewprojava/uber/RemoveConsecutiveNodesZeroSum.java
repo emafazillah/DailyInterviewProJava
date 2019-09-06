@@ -17,7 +17,7 @@ import com.dailyinterviewprojava.util.ListNode;
  * Your solution should run in linear time and use constant space.
  *
  */
-public class RemoveZeroSumSublists {
+public class RemoveConsecutiveNodesZeroSum {
 
 	public static void main(String...strings) {
 		// Input
