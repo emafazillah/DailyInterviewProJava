@@ -10,11 +10,14 @@ import com.dailyinterviewprojava.util.ListNode;
 /**
  * 
  * @author ema
- * You are given an array of integers. Return the smallest positive integer that is not present in the array. The array may contain duplicate entries.
+ * Given a linked list of integers, remove all consecutive nodes that sum up to 0.
  *
- * For example, the input [3, 4, -1, 1] should return 2 because it is the smallest positive integer that doesn't exist in the array.
+ * Example:
+ * Input: 10 -> 5 -> -3 -> -3 -> 1 -> 4 -> -4
+ * Output: 10
  *
- * Your solution should run in linear time and use constant space.
+ * The consecutive nodes 5 -> -3 -> -3 -> 1 sums up to 0 so that sequence should be removed. 
+ * 4 -> -4 also sums up to 0 too so that sequence should also be removed.
  *
  */
 public class RemoveConsecutiveNodesZeroSum {
