@@ -42,3 +42,8 @@ Date | Problem | Asked by | Solution |
 30-Aug-2019 | Contiguous Subarray with Maximum Sum | Twitter | NA |
 31-Aug-2019 | Merge K Sorted Linked Lists | Twitter | NA |
 01-Sep-2019 | Create a balanced binary search tree | LinkedIn | NA |
+02-Sep-2019 | Trapping Rainwater | Uber | NA |
+03-Sep-2019 | Buddy Strings	 | Airbnb | NA |
+04-Sep-2019 | Deepest Node in a Binary Tree | Google | NA |
+05-Sep-2019 | Look and Say Sequence | Google | NA |
+06-Sep-2019 | First Missing Positive Integer | Facebook | NA |
