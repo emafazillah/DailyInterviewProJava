@@ -28,7 +28,7 @@ Date | Problem | Asked by | Solution |
 16-Aug-2019 | Ways to Traverse a Grid | Microsoft | NA |
 17-Aug-2019 | Intersection of Linked Lists | Apple | [IntersectionOfLinkedLists.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/IntersectionOfLinkedLists.java) |
 18-Aug-2019 | Falling Dominoes | Twitter | NA |
-19-Aug-2019 | Remove Consecutive Nodes that Sum to 0 | Uber | NA |
+19-Aug-2019 | Remove Consecutive Nodes that Sum to 0 | Uber | [RemoveConsecutiveNodesZeroSum.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/uber/RemoveConsecutiveNodesZeroSum.java) |
 20-Aug-2019 | Remove k-th Last Element From Linked List | Airbnb | [RemoveKthLastElementFromLinkedList.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/airbnb/RemoveKthLastElementFromLinkedList.java) |
 21-Aug-2019 | Witness of The Tall People | Google | NA |
 22-Aug-2019 | Course Prerequisites | Google | NA |

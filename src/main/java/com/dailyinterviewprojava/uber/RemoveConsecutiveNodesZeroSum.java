@@ -36,10 +36,8 @@ public class RemoveConsecutiveNodesZeroSum {
 		
 		// Print output
 		while (listNode != null) {
-			System.out.print(listNode.val + ",");
 			listNode = listNode.next;
 		}
-		System.out.println();
 		
 		scanner.close();
 	}
@@ -55,65 +53,35 @@ public class RemoveConsecutiveNodesZeroSum {
 	}
 	
 	static ListNode removeZeroSumSublists(ListNode head) {
-		// ListNode to array
-		Map<Integer, Integer> map = new HashMap<>();
-		Map<Integer, Integer> mapRemove = new HashMap<>();
-		int count = 0;
-		while (head != null) {
-			map.put(count, head.val);
-			head = head.next;
-			++count;
-		}
-		System.out.print("map===" + map.toString());
-		System.out.println();
-		
-		// Remove zero sum sublist
-		for (int i = 0; i < map.size(); i++) {
-			boolean isBreak = false;
-			int sum = 0;
-			
-			// Check left
-			mapRemove = new HashMap<>();
-			for (int left = 0; left <= i; left++) {
-				mapRemove.put(left, map.get(left));
-				sum += map.get(left);
-				if (sum == 0) {
-					System.out.print("sumLeft is zero===" + mapRemove.toString());
-					System.out.println();
-					isBreak = true;
-					break;
-				}
-			}
-			
-			if (isBreak) break;
-			
-			// Check right
-			sum = 0;
-			mapRemove = new HashMap<>();
-			for (int right = i; right >= 0; right--) {
-				mapRemove.put(right, map.get(right));
-				sum += map.get(right);
-				if (sum == 0) {
-					System.out.print("sumRight is zero===" + mapRemove.toString());
-					System.out.println();
-					isBreak = true;
-					break;
-				}
-			}
-			
-			if (isBreak) break;
-		}
-		
-		// Update head
-		for (Map.Entry<Integer, Integer> entryRemove : mapRemove.entrySet()) {
-			map.remove(entryRemove.getKey());
-		}
-		
-		for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-			head = insertListNode(head, entry.getValue());
-		}
-		
-		return head;
+		Map<Integer, ListNode> map = new HashMap<>();
+        boolean isZeroSum = true; 
+        
+        while (isZeroSum) {
+        	isZeroSum = false;
+        	int sum = 0;
+        	ListNode temp = head;
+        	
+        	while (temp != null) {
+        		sum += temp.val;
+        		
+        		if (sum == 0) {
+        			head = temp.next;
+        			map.clear();
+        			isZeroSum = true;
+        			break;
+        		} else if (map.containsKey(sum)) {
+        			map.get(sum).next = temp.next;
+        			map.clear();
+        			isZeroSum = true;
+        			break;
+        		}
+        		
+        		map.put(sum, temp);
+        		temp = temp.next;
+        	}
+        }
+        
+        return head;
     }
 	
 }
