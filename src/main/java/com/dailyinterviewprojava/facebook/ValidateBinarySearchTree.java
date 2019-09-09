@@ -1,5 +1,7 @@
 package com.dailyinterviewprojava.facebook;
 
+import com.dailyinterviewprojava.util.TreeNode;
+
 /**
  * 
  * @author ema
@@ -9,5 +11,29 @@ package com.dailyinterviewprojava.facebook;
  * 
  */
 public class ValidateBinarySearchTree {
+	
+	TreeNode previousNode;
+	
+	public boolean isValidBST(TreeNode root) {
+        if (root == null) {
+        	return true;
+        }
+		
+		if (!isValidBST(root.left)) {
+			return false;
+		}
+		
+		if (previousNode == null || root.val > previousNode.val) {
+			previousNode = root;
+		} else {
+			return false; 
+		}
+		
+		if (!isValidBST(root.right)) {
+			return false;
+		}
+		
+		return true;
+    }
 
 }
