@@ -61,47 +61,45 @@ public class WordSearch {
 	}
 
 	static boolean exist(char[][] board, String word) {
-		// Map of character of word and character location
-		Map<Character, String> map = new HashMap<>();
-		
-		char[] charWord = word.toCharArray();
-		int idx = 0;
-		int count = 0;
-		int i = 0;
-		while (i < board.length) {
-			int j = 0;
-			while (j < board[i].length) {
-				char b = board[i][j];
-				if (idx < charWord.length && charWord[idx] == b) {
-					if (map.isEmpty()) { // first character found then insert
-						map.put(charWord[idx], Integer.toString(i) + "," + Integer.toString(j));
-						++idx;
-						++count;
-					} else {
-						String[] location = map.get(charWord[idx - 1]).split(",");
-						int prevI = Integer.parseInt(location[0]);
-						int prevJ = Integer.parseInt(location[1]);
-						if (Math.abs(i - prevI) == 1 || Math.abs(j - prevJ) == 1) {
-							map.put(charWord[idx], Integer.toString(i) + "," + Integer.toString(j));
-							++idx;
-							++count;
-						} else {
-							return false;
-						}
-					}
-				}
-				
-				++j;
-			}
-			
-			++i;
-		}
-		
-		if (count != charWord.length) {
-			return false;
-		}
+        if (word == null || word.length() == 0) {
+        	return true;
+        }
         
-		return true;
+        for (int i = 0; i < board.length; i++) {
+            for (int j = 0; j < board[i].length; j++) {
+                // DFS for backtracking
+                if (board[i][j] == word.charAt(0) && dfs(board, word, 0, i, j)) {
+                	return true;
+                }
+            }
+        }
+        
+        return false;
+    }
+	
+	static boolean dfs(char[][] board, String word, int index, int i, int j) {
+        if (word.length() == index){
+            return true;
+        }
+        
+        if (i < 0 || i >= board.length || j < 0 || j >= board[i].length || board[i][j] != word.charAt(index)) {
+            return false;
+        }
+        
+        char temp = board[i][j];
+        
+        // marking it as visited using space char so that it won't be visited again
+        board[i][j] = ' ';
+
+        boolean found = dfs(board, word, index + 1, i - 1, j) ||  
+        		dfs(board, word, index + 1, i + 1, j) ||  
+        		dfs(board, word, index + 1, i, j - 1) || 
+        		dfs(board, word, index + 1, i, j + 1);
+
+        // we need to put the board back to the previous state
+        board[i][j] = temp;
+        
+        return found;
     }
 	
 }
