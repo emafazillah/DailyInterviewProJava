@@ -2,49 +2,50 @@
 
 ### Daily Interview Pro from [https://www.techseries.dev/daily](https://www.techseries.dev/daily) in Java
 
-Date | Problem | Asked by | Solution |
-:---:|:---:|:---:|:---:|
-26-Jul-2019 | Add two numbers as a linked list | Microsoft | [AddTwoNumbersAsALinkedList.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/AddTwoNumbersAsALinkedList.java) |
-27-Jul-2019 | Longest Substring Without Repeating Characters | Microsoft | [LongestSubstring.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/LongestSubstring.java) |
-28-Jul-2019 | Longest Palindromic Substring | Twitter | [LongestPalindromicSubstring.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/LongestPalindromicSubstring.java) |
-29-Jul-2019 | Validate Balanced Parentheses | Uber | [ValidateBalancedParentheses.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/uber/ValidateBalancedParentheses.java) |
-30-Jul-2019 | First and Last Indices of an Element in a Sorted Array | Airbnb | [FirstAndLastIndices.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/airbnb/FirstAndLastIndices.java) |
-31-Jul-2019 | Reverse a Linked List | Google | [ReverseALinkedList.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/ReverseALinkedList.java) |
-01-Aug-2019 | Sorting a list with 3 unique numbers | Google | [SortingAListWith3UniqueNumbers.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/SortingAListWith3UniqueNumbers.java) |
-02-Aug-2019 | Two-Sum | Facebook | [TwoSum.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/TwoSum.java) |
-03-Aug-2019 | Find the non-duplicate number | Facebook | [FindTheNonDuplicateNumber.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/FindTheNonDuplicateNumber.java) |
-04-Aug-2019 | Non-decreasing Array with Single Modification | Microsoft | [NonDecreasingArrayWithSingleModification.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/NonDecreasingArrayWithSingleModification.java) |
-05-Aug-2019 | Floor and Ceiling of a Binary Search Tree | Apple | NA |
-06-Aug-2019 | Invert a Binary Tree | Twitter | NA |
-07-Aug-2019 | Maximum In A Stack | Twitter | [MaximumInAStack.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/MaximumInAStack.java) |
-08-Aug-2019 | Number of Ways to Climb Stairs | LinkedIn | [ClimbingStairs.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/linkedin/ClimbingStairs.java) |
-09-Aug-2019 | Find Pythagorean Triplets | Uber | [FindPythagoreanTriplets.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/uber/FindPythagoreanTriplets.java) |
-12-Aug-2019 | Edit Distance | Airbnb | NA |
-12-Aug-2019 | Create a Simple Calculator | Google | NA |
-12-Aug-2019 | Longest Sequence with Two Unique Numbers | Facebook | NA |
-13-Aug-2019 | Find Cycles in a Graph | Facebook | NA |
-14-Aug-2019 | Word Search | Amazon | [WordSearch.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/amazon/WordSearch.java) |
-15-Aug-2019 | Minimum Size Subarray Sum | Amazon | [MinimumSizeSubarraySum.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/amazon/MinimumSizeSubarraySum.java) |
-16-Aug-2019 | Ways to Traverse a Grid | Microsoft | NA |
-17-Aug-2019 | Intersection of Linked Lists | Apple | [IntersectionOfLinkedLists.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/IntersectionOfLinkedLists.java) |
-18-Aug-2019 | Falling Dominoes | Twitter | NA |
-19-Aug-2019 | Remove Consecutive Nodes that Sum to 0 | Uber | [RemoveConsecutiveNodesZeroSum.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/uber/RemoveConsecutiveNodesZeroSum.java) |
-20-Aug-2019 | Remove k-th Last Element From Linked List | Airbnb | [RemoveKthLastElementFromLinkedList.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/airbnb/RemoveKthLastElementFromLinkedList.java) |
-21-Aug-2019 | Witness of The Tall People | Google | NA |
-22-Aug-2019 | Course Prerequisites | Google | NA |
-23-Aug-2019 | Move Zeros | Facebook | [MoveZeroes.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/MoveZeroes.java) |
-24-Aug-2019 | Find the k-th Largest Element in a List | Facebook | [KthLargestElementInAList.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/KthLargestElementInAList.java) |
-25-Aug-2019 | Spiral Traversal of Grid | Amazon | NA |
-26-Aug-2019 | Largest Product of 3 Elements | Microsoft | NA |
-27-Aug-2019 | Merge Overlapping Intervals | Microsoft | NA |
-28-Aug-2019 | Maximum Profit From Stocks | Apple | NA |
-29-Aug-2019 | Queue Using Two Stacks | Apple | [QueueUsingTwoStacks.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/QueueUsingTwoStacks.java) |
-30-Aug-2019 | Contiguous Subarray with Maximum Sum | Twitter | NA |
-31-Aug-2019 | Merge K Sorted Linked Lists | Twitter | NA |
-01-Sep-2019 | Create a balanced binary search tree | LinkedIn | NA |
-02-Sep-2019 | Trapping Rainwater | Uber | NA |
-03-Sep-2019 | Buddy Strings	 | Airbnb | [BuddyStrings.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/airbnb/BuddyStrings.java) |
-04-Sep-2019 | Deepest Node in a Binary Tree | Google | NA |
-05-Sep-2019 | Look and Say Sequence | Google | NA |
-06-Sep-2019 | First Missing Positive Integer | Facebook | NA |
-07-Sep-2019 | Validate Binary Search Tree | Facebook | NA |
+Date | Problem | Asked by | Solution | Status |
+:---:|:---:|:---:|:---:|:---:|
+26-Jul-2019 | Add two numbers as a linked list | Microsoft | [AddTwoNumbersAsALinkedList.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/AddTwoNumbersAsALinkedList.java) | Done |
+27-Jul-2019 | Longest Substring Without Repeating Characters | Microsoft | [LongestSubstring.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/LongestSubstring.java) | Done |
+28-Jul-2019 | Longest Palindromic Substring | Twitter | [LongestPalindromicSubstring.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/LongestPalindromicSubstring.java) | Done |
+29-Jul-2019 | Validate Balanced Parentheses | Uber | [ValidateBalancedParentheses.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/uber/ValidateBalancedParentheses.java) | Done |
+30-Jul-2019 | First and Last Indices of an Element in a Sorted Array | Airbnb | [FirstAndLastIndices.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/airbnb/FirstAndLastIndices.java) | Done |
+31-Jul-2019 | Reverse a Linked List | Google | [ReverseALinkedList.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/ReverseALinkedList.java) | Done |
+01-Aug-2019 | Sorting a list with 3 unique numbers | Google | [SortingAListWith3UniqueNumbers.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/SortingAListWith3UniqueNumbers.java) | Done |
+02-Aug-2019 | Two-Sum | Facebook | [TwoSum.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/TwoSum.java) | Done |
+03-Aug-2019 | Find the non-duplicate number | Facebook | [FindTheNonDuplicateNumber.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/FindTheNonDuplicateNumber.java) | Done |
+04-Aug-2019 | Non-decreasing Array with Single Modification | Microsoft | [NonDecreasingArrayWithSingleModification.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/NonDecreasingArrayWithSingleModification.java) | Done |
+05-Aug-2019 | Floor and Ceiling of a Binary Search Tree | Apple | [FloorAndCeilingOfABinarySearchTree.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/FloorAndCeilingOfABinarySearchTree.java) | To Do |
+06-Aug-2019 | Invert a Binary Tree | Twitter | [InvertABinaryTree.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/InvertABinaryTree.java) | To Do |
+07-Aug-2019 | Maximum In A Stack | Twitter | [MaximumInAStack.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/MaximumInAStack.java) | Done |
+08-Aug-2019 | Number of Ways to Climb Stairs | LinkedIn | [ClimbingStairs.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/linkedin/ClimbingStairs.java) | Done |
+09-Aug-2019 | Find Pythagorean Triplets | Uber | [FindPythagoreanTriplets.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/uber/FindPythagoreanTriplets.java) | Done |
+12-Aug-2019 | Edit Distance | Airbnb | [EditDistance.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/airbnb/EditDistance.java) | To Do |
+12-Aug-2019 | Create a Simple Calculator | Google | [CreateASimpleCalculator.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/CreateASimpleCalculator.java) | To Do |
+12-Aug-2019 | Longest Sequence with Two Unique Numbers | Facebook | [LongestSequenceWithTwoUniqueNumbers.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/LongestSequenceWithTwoUniqueNumbers.java) | To Do |
+13-Aug-2019 | Find Cycles in a Graph | Facebook | [FindCyclesInAGraph.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/FindCyclesInAGraph.java) | To Do |
+14-Aug-2019 | Word Search | Amazon | [WordSearch.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/amazon/WordSearch.java) | Attempted |
+15-Aug-2019 | Minimum Size Subarray Sum | Amazon | [MinimumSizeSubarraySum.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/amazon/MinimumSizeSubarraySum.java) | Done |
+16-Aug-2019 | Ways to Traverse a Grid | Microsoft | [WaysToTraverseAGrid.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/WaysToTraverseAGrid.java) | To Do |
+17-Aug-2019 | Intersection of Linked Lists | Apple | [IntersectionOfLinkedLists.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/IntersectionOfLinkedLists.java) | Done |
+18-Aug-2019 | Falling Dominoes | Twitter | [FallingDominoes.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/FallingDominoes.java) | To Do |
+19-Aug-2019 | Remove Consecutive Nodes that Sum to 0 | Uber | [RemoveConsecutiveNodesZeroSum.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/uber/RemoveConsecutiveNodesZeroSum.java) | Done |
+20-Aug-2019 | Remove k-th Last Element From Linked List | Airbnb | [RemoveKthLastElementFromLinkedList.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/airbnb/RemoveKthLastElementFromLinkedList.java) | Done |
+21-Aug-2019 | Witness of The Tall People | Google | [WitnessOfTheTallPeople.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/WitnessOfTheTallPeople.java) | To Do |
+22-Aug-2019 | Course Prerequisites | Google | [CoursePrerequisites.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/CoursePrerequisites.java) | To Do |
+23-Aug-2019 | Move Zeros | Facebook | [MoveZeroes.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/MoveZeroes.java) | Done |
+24-Aug-2019 | Find the k-th Largest Element in a List | Facebook | [KthLargestElementInAList.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/KthLargestElementInAList.java) | Done |
+25-Aug-2019 | Spiral Traversal of Grid | Amazon | [SpiralTraversalOfGrid.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/amazon/SpiralTraversalOfGrid.java) | To Do |
+26-Aug-2019 | Largest Product of 3 Elements | Microsoft | [LargestProductOfThreeElements.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/LargestProductOfThreeElements.java) | To Do |
+27-Aug-2019 | Merge Overlapping Intervals | Microsoft | [MergeOverlappingIntervals.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/MergeOverlappingIntervals.java) | To Do |
+28-Aug-2019 | Maximum Profit From Stocks | Apple | [MaximumProfitFromStocks.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/MaximumProfitFromStocks.java) | To Do |
+29-Aug-2019 | Queue Using Two Stacks | Apple | [QueueUsingTwoStacks.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/QueueUsingTwoStacks.java) | Done |
+30-Aug-2019 | Contiguous Subarray with Maximum Sum | Twitter | [ContiguousSubarrayWithMaximumSum.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/ContiguousSubarrayWithMaximumSum.java) | To Do |
+31-Aug-2019 | Merge K Sorted Linked Lists | Twitter | [MergeKSortedLinkedLists.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/MergeKSortedLinkedLists.java) | To Do |
+01-Sep-2019 | Create a balanced binary search tree | LinkedIn | [CreateABalancedBinarySearchTree.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/linkedin/CreateABalancedBinarySearchTree.java) | To Do |
+02-Sep-2019 | Trapping Rainwater | Uber | [TrappingRainwater.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/uber/TrappingRainwater.java) | To Do |
+03-Sep-2019 | Buddy Strings	 | Airbnb | [BuddyStrings.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/airbnb/BuddyStrings.java) | Done |
+04-Sep-2019 | Deepest Node in a Binary Tree | Google | [DeepestNodeInABinaryTree.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/DeepestNodeInABinaryTree.java) | To Do |
+05-Sep-2019 | Look and Say Sequence | Google | [LookAndSaySequence.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/LookAndSaySequence.java) | To Do |
+06-Sep-2019 | First Missing Positive Integer | Facebook | [FirstMissingPositiveInteger.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/FirstMissingPositiveInteger.java) | To Do |
+07-Sep-2019 | Validate Binary Search Tree | Facebook | [ValidateBinarySearchTree.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/ValidateBinarySearchTree.java) | To Do |
+08-Sep-2019 | Get all Values at a Certain Height in a Binary Tree | Amazon | [GetAllValuesAtACertainHeightInABinaryTree.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/amazon/GetAllValuesAtACertainHeightInABinaryTree.java) | To Do |
