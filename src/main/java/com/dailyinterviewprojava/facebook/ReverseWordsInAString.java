@@ -13,5 +13,26 @@ package com.dailyinterviewprojava.facebook;
  * 
  */
 public class ReverseWordsInAString {
+	
+	public static void main(String...strings) {
+		System.out.println(reverseString("The cat in the hat"));
+	}
+	
+	static String reverseString(String s) {
+		StringBuilder result = new StringBuilder();
+		
+		String[] arr = s.split(" ");
+		for (String arrItem : arr) {
+			int idx = arrItem.length() - 1;
+			while (idx > -1) {
+				result.append(arrItem.charAt(idx));
+				--idx;
+			}
+			
+			result.append(" ");
+		}
+		
+		return result.toString();
+    }
 
 }
