@@ -72,4 +72,4 @@ Date | Problem | Asked by | Solution | Status |
 29-Sep-2019 | Distribute Bonuses | Twitter | [DistributeBonuses.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/DistributeBonuses.java) | To Do |
 30-Sep-2019 | Min Range Needed to Sort | Twitter | [MinRangeNeededToSort.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/MinRangeNeededToSort.java) | To Do |
 1-Oct-2019 | Reverse Integer | LinkedIn | [ReverseInteger.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/linkedin/ReverseInteger.java) | To Do |
-2-Oct-2019 | Min Stack | Uber | [MinStack.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/uber/MinStack.java) | To Do |
+2-Oct-2019 | Min Stack | Uber | [MinimumStack.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/uber/MinimumStack.java) | Done |
