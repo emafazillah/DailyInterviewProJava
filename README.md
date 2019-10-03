@@ -69,3 +69,7 @@ Date | Problem | Asked by | Solution | Status |
 26-Sep-2019 | Angles of a Clock | Microsoft | [AnglesOfAClock.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/AnglesOfAClock.java) | To Do |
 27-Sep-2019 | Arithmetic Binary Tree | Apple | [ArithmeticBinaryTree.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/ArithmeticBinaryTree.java) | To Do |
 28-Sep-2019 | Tree Serialization | Apple | [TreeSerialization.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/TreeSerialization.java) | To Do |
+29-Sep-2019 | Distribute Bonuses | Twitter | [DistributeBonuses.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/DistributeBonuses.java) | To Do |
+30-Sep-2019 | Min Range Needed to Sort | Twitter | [MinRangeNeededToSort.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/MinRangeNeededToSort.java) | To Do |
+1-Oct-2019 | Reverse Integer | LinkedIn | [ReverseInteger.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/linkedin/ReverseInteger.java) | To Do |
+2-Oct-2019 | Min Stack | Uber | [MinStack.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/uber/MinStack.java) | To Do |
