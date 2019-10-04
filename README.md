@@ -73,3 +73,5 @@ Date | Problem | Asked by | Solution | Status |
 30-Sep-2019 | Min Range Needed to Sort | Twitter | [MinRangeNeededToSort.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/MinRangeNeededToSort.java) | To Do |
 1-Oct-2019 | Reverse Integer | LinkedIn | [ReverseInteger.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/linkedin/ReverseInteger.java) | Done |
 2-Oct-2019 | Min Stack | Uber | [MinimumStack.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/uber/MinimumStack.java) | Done |
+3-Oct-2019 | Full Binary Tree | Google | [FullBinaryTree.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/FullBinaryTree.java) | To Do |
+4-Oct-2019 | Decode String | Google | [DecodeString.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/DecodeString.java) | To Do |
