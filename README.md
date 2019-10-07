@@ -75,3 +75,6 @@ Date | Problem | Asked by | Solution | Status |
 2-Oct-2019 | Min Stack | Uber | [MinimumStack.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/uber/MinimumStack.java) | Done |
 3-Oct-2019 | Full Binary Tree | Google | [FullBinaryTree.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/FullBinaryTree.java) | To Do |
 4-Oct-2019 | Decode String | Google | [DecodeString.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/DecodeString.java) | To Do |
+5-Oct-2019 | Circle of Chained Words | Facebook | [CircleOfChainedWords.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/CircleOfChainedWords.java) | To Do |
+6-Oct-2019 | Jump to the End | Facebook | [JumpToTheEnd.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/JumpToTheEnd.java) | To Do |
+7-Oct-2019 | H-Index | Amazon | [HIndex.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/amazon/HIndex.java) | To Do |
