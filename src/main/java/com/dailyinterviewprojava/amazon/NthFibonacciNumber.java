@@ -1,5 +1,8 @@
 package com.dailyinterviewprojava.amazon;
 
+import java.math.BigInteger;
+import java.util.Scanner;
+
 /**
  * 
  * @author ema
@@ -17,5 +20,26 @@ package com.dailyinterviewprojava.amazon;
  *
  */
 public class NthFibonacciNumber {
+	
+	public static void main(String...strings) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println(fib(scanner.nextInt()));
+		scanner.close();
+	}
+	
+	private static int fib(int n) {
+		// Fibonacci, (Fn) = (Fn-1) + (Fn-2)
+		BigInteger fn = new BigInteger("0");
+		BigInteger fnminus1 = new BigInteger("0");
+		BigInteger fnminus2 = new BigInteger("1");
+		
+		for(int i = 0; i < n; i++) {
+			fn = fnminus1.add(fnminus2);
+			fnminus2 = fnminus1;
+			fnminus1 = fn;
+		}
+		
+		return fn.intValue();
+    }
 
 }
