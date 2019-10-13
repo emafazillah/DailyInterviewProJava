@@ -77,7 +77,7 @@ Date | Problem | Asked by | Solution | Status |
 4-Oct-2019 | Decode String | Google | [DecodeString.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/DecodeString.java) | To Do |
 5-Oct-2019 | Circle of Chained Words | Facebook | [CircleOfChainedWords.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/CircleOfChainedWords.java) | To Do |
 6-Oct-2019 | Jump to the End | Facebook | [JumpToTheEnd.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/JumpToTheEnd.java) | To Do |
-7-Oct-2019 | H-Index | Amazon | [HIndex.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/amazon/HIndex.java) | To Do |
+7-Oct-2019 | H-Index | Amazon | [HIndex.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/amazon/HIndex.java) | Done |
 8-Oct-2019 | Symmetric k-ary Tree | Microsoft | [SymmetricKAryTree.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/SymmetricKAryTree.java) | Done |
 9-Oct-2019 | Max and Min with Limited Comparisons | Microsoft | [MaxAndMinWithLimitedComparisons.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/MaxAndMinWithLimitedComparisons.java) | To Do |
 10-Oct-2019 | Nth Fibonacci Number | Apple | [NthFibonacciNumber.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/NthFibonacciNumber.java) | Done |
