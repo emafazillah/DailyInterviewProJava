@@ -96,3 +96,5 @@ Date | Problem | Asked by | Solution | Status |
 23-Oct-2019 | Shifted String | Apple | [ShiftedString.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/ShiftedString.java) | To Do |
 24-Oct-2019 | Lowest Common Ancestor of 2 Nodes in Binary Tree | Apple | [LowestCommonAncestor.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/LowestCommonAncestor.java) | To Do |
 25-Oct-2019 | Binary Tree Level with Minimum Sum | Twitter | [BinaryTreeLevelWithMinimumSum.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/BinaryTreeLevelWithMinimumSum.java) | To Do |
+26-Oct-2019 | Find Missing Numbers in an Array | Twitter | [FindMissingNumbers.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/FindMissingNumbers.java) | To Do |
+27-Oct-2019 | Plus One | LinkedIn | [PlusOne.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/linkedin/PlusOne.java) | To Do |
