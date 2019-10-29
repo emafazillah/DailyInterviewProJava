@@ -98,3 +98,5 @@ Date | Problem | Asked by | Solution | Status |
 25-Oct-2019 | Binary Tree Level with Minimum Sum | Twitter | [BinaryTreeLevelWithMinimumSum.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/BinaryTreeLevelWithMinimumSum.java) | To Do |
 26-Oct-2019 | Find Missing Numbers in an Array | Twitter | [FindMissingNumbers.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/FindMissingNumbers.java) | To Do |
 27-Oct-2019 | Plus One | LinkedIn | [PlusOne.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/linkedin/PlusOne.java) | To Do |
+28-Oct-2019 | Detect Linked List Cycle | Uber | [DetectLinkedListCycle.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/uber/DetectLinkedListCycle.java) | To Do |
+29-Oct-2019 | Top K Frequent words | Airbnb | [TopKFrequentWords.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/airbnb/TopKFrequentWords.java) | To Do |
