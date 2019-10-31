@@ -100,3 +100,5 @@ Date | Problem | Asked by | Solution | Status |
 27-Oct-2019 | Plus One | LinkedIn | [PlusOne.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/linkedin/PlusOne.java) | To Do |
 28-Oct-2019 | Detect Linked List Cycle | Uber | [DetectLinkedListCycle.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/uber/DetectLinkedListCycle.java) | To Do |
 29-Oct-2019 | Top K Frequent words | Airbnb | [TopKFrequentWords.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/airbnb/TopKFrequentWords.java) | To Do |
+30-Oct-2019 | Design Tic-Tac-Toe | Google | [DesignTicTacToe.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/DesignTicTacToe.java) | To Do |
+31-Oct-2019 | Absolute Path | Facebook | [AbsolutePath.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/AbsolutePath.java) | To Do |
