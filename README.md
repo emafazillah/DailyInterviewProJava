@@ -102,3 +102,5 @@ Date | Problem | Asked by | Solution | Status |
 29-Oct-2019 | Top K Frequent words | Airbnb | [TopKFrequentWords.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/airbnb/TopKFrequentWords.java) | To Do |
 30-Oct-2019 | Design Tic-Tac-Toe | Google | [DesignTicTacToe.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/DesignTicTacToe.java) | To Do |
 31-Oct-2019 | Absolute Path | Facebook | [AbsolutePath.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/AbsolutePath.java) | To Do |
+01-Nov-2019 | Reverse a Directed Graph | Facebook | [ReverseADirectedGraph.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/ReverseADirectedGraph.java) | To Do |
+02-Nov-2019 | Compare Version Numbers | Amazon | [CompareVersionNumbers.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/amazon/CompareVersionNumbers.java) | To Do |
