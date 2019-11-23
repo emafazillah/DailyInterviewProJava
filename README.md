@@ -124,3 +124,4 @@ Date | Problem | Asked by | Solution | Status |
 21-Nov-2019 | Fixed Point | Apple | [FixedPoint.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/FixedPoint.java) | To Do |
 22-Nov-2019 | ZigZag Binary Tree | Apple | [ZigZagBinaryTree.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/ZigZagBinaryTree.java) | To Do |
 23-Nov-2019 | Sorting Window Range | Twitter | [SortingWindowRange.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/SortingWindowRange.java) | To Do |
+24-Nov-2019 | Determine Height Balanced Binary Tree | Twitter | [HeightBalancedBinaryTree.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/HeightBalancedBinaryTree.java) | To Do |
