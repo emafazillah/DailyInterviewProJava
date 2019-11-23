@@ -122,3 +122,5 @@ Date | Problem | Asked by | Solution | Status |
 19-Nov-2019 | Generate Binary Search Trees | Amazon | [GenerateBinarySearchTrees.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/amazon/GenerateBinarySearchTrees.java) | To Do |
 20-Nov-2019 | UTF-8 Validator | Microsoft | [UTF8Validator.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/UTF8Validator.java) | To Do |
 21-Nov-2019 | Fixed Point | Apple | [FixedPoint.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/FixedPoint.java) | To Do |
+22-Nov-2019 | ZigZag Binary Tree | Apple | [ZigZagBinaryTree.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/ZigZagBinaryTree.java) | To Do |
+23-Nov-2019 | Sorting Window Range | Twitter | [SortingWindowRange.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/SortingWindowRange.java) | To Do |
