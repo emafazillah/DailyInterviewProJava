@@ -3,7 +3,7 @@
 ### Daily Interview Pro from [https://www.techseries.dev/daily](https://www.techseries.dev/daily) in Java
 
 Date | Problem | Asked by | Solution | Status |
-:---:|:---:|:---:|:---:|:---:|
+:---|:---|:---|:---|:---|
 26-Jul-2019 | Add two numbers as a linked list | Microsoft | [AddTwoNumbersAsALinkedList.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/AddTwoNumbersAsALinkedList.java) | Done |
 27-Jul-2019 | Longest Substring Without Repeating Characters | Microsoft | [LongestSubstring.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/LongestSubstring.java) | Done |
 28-Jul-2019 | Longest Palindromic Substring | Twitter | [LongestPalindromicSubstring.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/LongestPalindromicSubstring.java) | Done |
@@ -173,3 +173,22 @@ Date | Problem | Asked by | Solution | Status |
 10-Jan-2020 | K Closest Elements | Airbnb | [KClosestElements.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/airbnb/KClosestElements.java) | To Do |
 10-Jan-2020 | Index of Larger Next Number | Google | [IndexOfLargerNextNumber.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/IndexOfLargerNextNumber.java) | To Do |
 11-Jan-2020 | Remove Character to Create Palindrome | Google | [RemoveCharacterToCreatePalindrome.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/RemoveCharacterToCreatePalindrome.java) | To Do |
+13-Jan-2020 | Number of Meeting Rooms | Facebook | [NumberOfMeetingRooms.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/NumberOfMeetingRooms.java) | To Do |
+14-Jan-2020 | Convert Fraction to Decimal | Facebook | [ConvertTractionToDecimal.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/ConvertTractionToDecimal.java) | To Do |
+15-Jan-2020 | Primes | Amazon | [Primes.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/amazon/Primes.java) | To Do |
+16-Jan-2020 | Convert to Hexadecimal | Amazon | [ConvertToHexadecimal.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/amazon/ConvertToHexadecimal.java) | To Do |
+17-Jan-2020 | Multiply | Microsoft | [Multiply.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/Multiply.java) | To Do |
+17-Jan-2020 | Remove Adjacent Duplicate Characters | Apple | [RemoveAdjacentDuplicateCharacters.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/RemoveAdjacentDuplicateCharacters.java) | To Do |
+18-Jan-2020 | Common Characters | Apple | [CommonCharacters.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/CommonCharacters.java) | To Do |
+19-Jan-2020 | Transpose Matrix | Twitter | [TransposeMatrix.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/TransposeMatrix.java) | To Do |
+20-Jan-2020 | Intersection of Lists | Twitter | [IntersectionOfLists.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/twitter/IntersectionOfLists.java) | To Do |
+22-Jan-2020 | Minimum Number of Operations | LinkedIn | [MinimumNumberOfOperations.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/linkedin/MinimumNumberOfOperations.java) | To Do |
+23-Jan-2020 | Shortest Distance to Character | Uber | [ShortestDistanceToCharacter.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/uber/ShortestDistanceToCharacter.java) | To Do |
+24-Jan-2020 | Pascal's Triangle | Airbnb | [PascalsTriangle.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/airbnb/PascalsTriangle.java) | To Do |
+25-Jan-2020 | Closest to 3 Sum | Google | [ClosestTo3Sum.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/ClosestTo3Sum.java) | To Do |
+25-Jan-2020 | Sum Binary Numbers | Facebook | [SumBinaryNumbers.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/SumBinaryNumbers.java) | To Do |
+26-Jan-2020 | Reshaping Matrix | Facebook | [ReshapingMatrix.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/ReshapingMatrix.java) | To Do |
+27-Jan-2020 | Reverse Integer | Amazon | [ReverseInteger.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/amazon/ReverseInteger.java) | To Do |
+29-Jan-2020 | Decimal to Roman | Amazon | [DecimalToRoman.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/amazon/DecimalToRoman.java) | To Do |
+30-Jan-2020 | Longest Common Prefix | Microsoft | [LongestCommonPrefix.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/LongestCommonPrefix.java) | To Do |
+31-Jan-2020 | 4 Sum | Microsoft | [FourSum.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/FourSum.java) | To Do |
