@@ -1,5 +1,9 @@
 package com.dailyinterviewprojava.google;
 
+import java.util.Scanner;
+
+import com.dailyinterviewprojava.util.InputUtil;
+
 /**
  * 
  * @author ema
@@ -21,4 +25,31 @@ package com.dailyinterviewprojava.google;
  */
 public class WitnessOfTheTallPeople {
 
+	public static void main(String...strings) {
+		// Input
+		Scanner scanner = new Scanner(System.in);
+		String[] inputs = InputUtil.inputArr(scanner.next());
+		int[] nums = InputUtil.integerArr(inputs);
+
+		// Output
+		System.out.print(countWitnesses(nums));
+
+		scanner.close();
+	}
+
+	public static int countWitnesses(int[] nums) {
+		int counter = 1;
+		int n = nums.length;
+		int maxHeight = nums[n - 1];
+
+		for (int i = n - 2; i >= 0; i--) {
+			if (nums[i] > maxHeight) {
+				counter++;
+
+				maxHeight = nums[i];
+			}
+		}
+
+		return counter;
+	}
 }
