@@ -175,7 +175,7 @@ Index of Larger Next Number | Google | [IndexOfLargerNextNumber.java](https://gi
 Remove Character to Create Palindrome | Google | [RemoveCharacterToCreatePalindrome.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/google/RemoveCharacterToCreatePalindrome.java) | To Do |
 Number of Meeting Rooms | Facebook | [NumberOfMeetingRooms.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/NumberOfMeetingRooms.java) | To Do |
 Convert Fraction to Decimal | Facebook | [ConvertTractionToDecimal.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/facebook/ConvertTractionToDecimal.java) | To Do |
-Primes | Amazon | [Primes.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/amazon/Primes.java) | To Do |
+Primes | Amazon | [Primes.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/amazon/Primes.java) | Done |
 Convert to Hexadecimal | Amazon | [ConvertToHexadecimal.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/amazon/ConvertToHexadecimal.java) | To Do |
 Multiply | Microsoft | [Multiply.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/microsoft/Multiply.java) | To Do |
 Remove Adjacent Duplicate Characters | Apple | [RemoveAdjacentDuplicateCharacters.java](https://github.com/emafazillah/DailyInterviewProJava/blob/master/src/main/java/com/dailyinterviewprojava/apple/RemoveAdjacentDuplicateCharacters.java) | To Do |
